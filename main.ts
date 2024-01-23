@@ -2,7 +2,7 @@
 
 import inquirer from "inquirer";
 
-const counter = (text: string) => text.replace(/\s/g, "").length
+const counter = (text: string) => text.replace(/\s/g, "").length;
 
 async function start(counter: (text: string) => number) {
     do {
@@ -10,10 +10,9 @@ async function start(counter: (text: string) => number) {
             type: "input",
             name: "text",
             message: "Write your paragraph here :"
-        })
-        console.log(counter(userInput.text))
-    }
-    while (true)
-}
+        });
+        console.log(counter(userInput.text));
+    } while (true);
+};
 
-start(counter)
+start(counter);
