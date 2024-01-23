@@ -1,0 +1,22 @@
+{
+  "name": "project-word-counter_rida",
+  "version": "1.0.0",
+  "description": "This is a word counter node project. In this you are required to provide text and it will give the number of words you use.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "project_word_counter": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rida Naz",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
